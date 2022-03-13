@@ -1,0 +1,12 @@
+http:
+  -host: 127.0.0.1
+  -porthttps: 50407
+  -cert-loc: /path/to/certs/server.cert
+  -key-loc: /path/to/certs/server.key
+
+database:
+  -dbname: auth
+  -user: postgres
+  -passwd: 12345
+  -host: 127.0.0.1
+  -port: 5432
